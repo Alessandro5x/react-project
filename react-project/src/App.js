@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   const name = "Alessandro"
@@ -18,6 +19,7 @@ function App() {
         <p>Olá, {newName}</p>
         <p>Soma: {sum(1,2)}</p>
         <img src={url} alt = "My img"/>
+        <HelloWorld></HelloWorld>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
