@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
   const name = "Alessandro"
@@ -18,6 +19,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>Alterando o JSX</h2>
+        <Frase />
+        <Frase />
+        <h1>Testando o CSS</h1>
         <p>Olá, {newName}</p>
         <p>Soma: {sum(1,2)}</p>
         <img src={url} alt = "My img"/>
