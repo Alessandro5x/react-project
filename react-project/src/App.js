@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
+import List from './components/List';
 
 function App() {
   const name = "Alessandro"
@@ -27,7 +27,6 @@ function App() {
         <img src={url} alt = "My img"/>
         <HelloWorld></HelloWorld>
         <SayMyName name="Alessandro" />
-        <Pessoa name="Jose" age="28" job="Programador" img="https://via.placeholde.ocm/150"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -41,6 +40,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <List />
     </div>
   );
 }
